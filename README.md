@@ -81,7 +81,8 @@ end
 # Angular Section
 
 Get Angular to talk to Rails
-src/app/app.module.ts 
+
+Modify src/app/app.module.ts 
 
 ```
 import { BrowserModule } from '@angular/platform-browser';
