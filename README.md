@@ -1,4 +1,4 @@
-# Rails Api With Angular
+# Rails 5.2 Api With Angular6
 
 * install angular on your system
 ```
