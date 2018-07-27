@@ -20,6 +20,10 @@ ng new home-library
  ```
  ng serve  ***/start the angular server***
 ```
+
+# Rails Section
+
+
 ```
 rails new home_library --api -T -d postgresql
 ```
@@ -74,6 +78,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
   end
 end
 ```
+# Angular Section
 
 Get Angular to talk to Rails
 src/app/app.module.ts 
