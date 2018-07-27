@@ -42,7 +42,7 @@ rails db:migrate
 
 # db/seeds.rb
 
- False data for testing
+* False data for testing
  
  ```
 Book.create!([
@@ -65,7 +65,7 @@ gem 'rack-cors'
 bundle install
 ```
 
-Then make config/initializers/cors.rb look like this
+* Then make config/initializers/cors.rb look like this
 
 ```
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
@@ -80,9 +80,9 @@ end
 ```
 # Angular Section
 
-Get Angular to talk to Rails
+* Get Angular to talk to Rails
 
-Modify src/app/app.module.ts 
+* Modify src/app/app.module.ts 
 
 ```
 import { BrowserModule } from '@angular/platform-browser';
@@ -109,10 +109,10 @@ export class AppModule { }
 
 
 
-Modify src/app/app.component.ts 
+* Modify src/app/app.component.ts 
 
 
-// src/app/app.component.ts
+* src/app/app.component.ts
 
  ```
 import { Component } from '@angular/core';
@@ -133,7 +133,7 @@ export class AppComponent {
   }
 }
 ```
-Modify src/app/app.component.html
+* Modify src/app/app.component.html
 
 ```
 h1>
@@ -145,6 +145,6 @@ h1>
 </ul>
 ```
 
-Now, if you refresh the page at http://localhost:4200
+* Now, if you refresh the page at http://localhost:4200
 Angular6 is connected to rails 5.2
 
