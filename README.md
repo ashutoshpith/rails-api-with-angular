@@ -4,23 +4,37 @@
 
 **npm install -g @angular/cli** 
 
+```
 mkdir getting_started
+```
+```
 cd getting_started
+```
+```
 ng new home-library
-	
+```
+```
  cd home-library
+ ```
  
  ```
  ng serve  ***/start the angular server***
 ```
-
+```
 rails new home_library --api -T -d postgresql
-
+```
+```
 cd home_library
+```
+```
 rails db:create
-	
+```
+```
 rails generate scaffold book name:string
+```
+```
 rails db:migrate
+```
 
 # db/seeds.rb
 
@@ -43,8 +57,9 @@ The first step is to uncomment rack-cors in the Gemfile.
 ```
 gem 'rack-cors'
 ```
-
+```
 bundle install
+```
 
 Then make config/initializers/cors.rb look like this
 
