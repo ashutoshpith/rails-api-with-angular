@@ -54,6 +54,9 @@ rails server  /start the rails server via cmd line
 
 And if you visit http://localhost:3000/books.json you see content
 
+![screenshot 120](https://user-images.githubusercontent.com/31169310/43348484-d871807e-9217-11e8-849b-f53889349729.png)
+
+
 Enable CORS so the Angular app can talk to the Rails app
 The first step is to uncomment rack-cors in the Gemfile.
 
@@ -145,4 +148,6 @@ h1>
 
 * Now, if you refresh the page at http://localhost:4200
 Angular6 is connected to rails 5.2
+
+![screenshot 119](https://user-images.githubusercontent.com/31169310/43348482-d826d650-9217-11e8-8bc0-e829889e7458.png)
 
