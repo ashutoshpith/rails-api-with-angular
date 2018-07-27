@@ -1,9 +1,9 @@
 # Rails Api With Angular
 
 * install angular on your system
-
-**npm install -g @angular/cli** 
-
+```
+npm install -g @angular/cli** 
+```
 ```
 mkdir getting_started
 ```
