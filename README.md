@@ -10,7 +10,9 @@ ng new home-library
 	
  cd home-library
  
+ ```
  ng serve  ***/start the angular server***
+```
 
 rails new home_library --api -T -d postgresql
 
@@ -123,5 +125,5 @@ h1>
 ```
 
 Now, if you refresh the page at http://localhost:4200
-
+Angular6 is connected to rails 5.2
 
