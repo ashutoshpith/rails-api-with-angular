@@ -1,6 +1,6 @@
 # Rails Api With Angular
 
-### install angular on your system
+* install angular on your system
 
 **npm install -g @angular/cli** 
 
@@ -111,8 +111,6 @@ export class AppModule { }
 
 * Modify src/app/app.component.ts 
 
-
-* src/app/app.component.ts
 
  ```
 import { Component } from '@angular/core';
